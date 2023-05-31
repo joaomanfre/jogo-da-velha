@@ -1,7 +1,8 @@
 
 
 body {
-    background-color: rgb(197, 197, 197);
+    background-color: rgb(160, 160, 160);
+    font-family: verdana;
 }
 
 main {
@@ -10,13 +11,12 @@ main {
 
 section p {
     color: white;
-    font-family: verdana;
     font-size: 40px;
 }
 
 .tabuleiro div input {
-    width: 130px;
-    height: 130px;
+    width: 100px;
+    height: 100px;
     margin: 4px;
     border: 1px solid gray;
     cursor: pointer;
@@ -25,5 +25,13 @@ section p {
     background-color: white;
 }
 
-
-
+#btnReiniciar {
+    background-color: white;
+    height: 40px;
+    width: 150px;
+    border: none;
+    color: black;
+    border-radius: 20px;
+    font-size: 20px;
+    font-family: verdana;
+}
